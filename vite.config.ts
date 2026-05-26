@@ -4,7 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 import { imagetools } from "vite-imagetools";
 import { compression } from "vite-plugin-compression2";
 import { createHtmlPlugin } from "vite-plugin-html";
-
 // Copy strings injected into index.html at build time.
 // Kept in sync with src/i18n/locales/de.json (meta section).
 const meta = {
@@ -14,9 +13,9 @@ const meta = {
   ogTitle: "Krypto Harry – Bitcoin Mining am Handy",
   ogDescription: "Kostenloses Strategie-Gespräch: Bitcoin-Mining ohne Fachwissen.",
 };
-
 // https://viteplus.dev/config/ — Vite+ extends Vite's config shape.
 export default defineConfig({
+  base: "/KryptoHarry/",
   fmt: {},
   lint: { options: { typeAware: true, typeCheck: true } },
   plugins: [
