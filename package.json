@@ -1,0 +1,53 @@
+{
+  "name": "kryptoharry-landing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kryptoharry Bitcoin-Mining landing page — Vite+ + React + TypeScript",
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "tsc -b && vp build",
+    "preview": "vp preview",
+    "check": "vp check",
+    "lint": "vp lint",
+    "fmt": "vp fmt",
+    "optimize-logo": "node scripts/optimize-logo.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.2.8",
+    "@fontsource/bebas-neue": "^5.2.7",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "lucide-react": "^1.8.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vercel/config": "^0.2.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.2.2",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.0",
+    "vite": "catalog:",
+    "vite-imagetools": "^10.0.0",
+    "vite-plugin-compression2": "^2.5.3",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plus": "catalog:"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  }
+}
